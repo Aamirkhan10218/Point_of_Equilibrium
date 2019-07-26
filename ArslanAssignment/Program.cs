@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POE(Console)
+namespace POE_Console
 {
     class Program
     {
@@ -41,12 +41,13 @@ namespace POE(Console)
 
         static void Main(string[] args)
         {
-            int[] arr = { -7, 5, 5, 2, -4, 3, 0 };
-            //int arr_size = arr.Length;
-
-            //Console.Write(equilibrium(arr, arr_size));int []arr = {4, 2, 4, 5, 2, 3, 1}; 
-            int arr_size = arr.Length;
-            printRepeating(arr, arr_size);
+            int[] arrPOE = { -7, 5, 5, 2, -4, 3, 0 };
+            int arr_size = arrPOE.Length;
+            Console.Write(equilibrium(arrPOE, arr_size));
+            Console.WriteLine("\n");
+            int[] arrRepaeting = { 4, 2, 4, 5, 2, 3, 1 };
+            int arr_sizeRep = arrRepaeting.Length;
+            printRepeating(arrRepaeting, arr_sizeRep);
 
             Console.ReadLine();
         }
